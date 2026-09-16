@@ -44,3 +44,35 @@ nav a {
 nav a:hover {
     color: #6c4ab6;
 }
+#inicio {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#inicio h2 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+#inicio p {
+    max-width: 650px;
+    margin: 8px 0;
+}
+
+#inicio a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #6c4ab6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#inicio a:hover {
+    background-color: #553799;
+}
