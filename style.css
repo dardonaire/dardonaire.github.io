@@ -112,7 +112,7 @@ nav a:hover {
 #sobre-mi p {
     font-size: 18px;
     line-height: 1.8;
-    color: #444444;
+    color: #d8d1e3;
 }
 .etiqueta {
     display: inline-block;
@@ -127,4 +127,19 @@ nav a:hover {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1.5px;
+}
+#sobre-mi,
+#proyectos {
+    padding: 90px 0;
+}
+#sobre-mi h2,
+#proyectos h2 {
+    font-size: 36px;
+    margin-bottom: 25px;
+    color: #9b7ae5;
+}
+#proyectos > p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #d8d1e3;
 }
