@@ -165,3 +165,62 @@ nav a:hover {
                 border-color 0.3s ease,
                 box-shadow 0.3s ease;
 }
+/* Tarjetas de proyectos */
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.proyecto {
+    padding: 28px;
+
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(155, 122, 229, 0.20);
+    border-radius: 16px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.20);
+
+    transition: transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: translateY(-6px);
+    border-color: rgba(155, 122, 229, 0.60);
+    box-shadow: 0 15px 40px rgba(110, 70, 180, 0.25);
+}
+
+.proyecto h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #eee8f7;
+}
+
+.proyecto p {
+    color: #d8d1e3;
+    line-height: 1.7;
+}
+
+.tecnologias-proyecto {
+    color: #b99af3 !important;
+    font-size: 14px;
+}
+
+.proyecto a {
+    display: inline-block;
+    margin-top: 12px;
+
+    color: #b99af3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    color: #ffffff;
+}
