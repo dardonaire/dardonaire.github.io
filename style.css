@@ -68,6 +68,16 @@ nav a:hover {
 #inicio h2 {
     font-size: 48px;
     margin: 10px 0;
+
+    background: linear-gradient(
+        90deg,
+        #ffffff,
+        #c5a7ff,
+        #9b7ae5
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #inicio p {
@@ -103,4 +113,18 @@ nav a:hover {
     font-size: 18px;
     line-height: 1.8;
     color: #444444;
+}
+.etiqueta {
+    display: inline-block;
+    padding: 8px 14px;
+    margin-bottom: 15px;
+
+    background-color: rgba(155, 122, 229, 0.12);
+    border: 1px solid rgba(155, 122, 229, 0.35);
+    border-radius: 20px;
+
+    color: #b99af3;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
 }
