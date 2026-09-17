@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-    color: #6c4ab6;
+    color: #9b7ae5;
 }
 
 p {
@@ -42,7 +42,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #6c4ab6;
+    color: #9b7ae5;
 }
 #inicio {
     min-height: 70vh;
@@ -66,7 +66,7 @@ nav a:hover {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 24px;
-    background-color: #6c4ab6;
+    background-color: #9b7ae5;
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 #inicio a:hover {
-    background-color: #553799;
+    background-color: #7c5ac7;
 }
 #sobre-mi {
     padding: 80px 0;
